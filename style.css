@@ -1,0 +1,47 @@
+/* <!-- 3) Css styling Design a contact us form with all fields as required. --> */
+
+body {
+    margin-top: 10%;
+  }
+  div {
+    background: #101495;
+    background: -webkit-linear-gradient(top left, #101495, #9e1791);
+    background: -moz-linear-gradient(top left, #101495, #9e1791);
+    background: linear-gradient(to bottom right, #101495, #9e1791);
+    padding: 20px 20px;
+    width: 30%;
+    height: 60vh;
+    border: 2px solid rgb(255, 196, 0);
+    border-radius: 8px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    position: relative;
+  }
+  .input-field {
+    border: 2px solid rgb(235, 78, 60);
+    border-radius: 3px;
+  }
+  .btn {
+    box-shadow: 0px 1px 0px 0px #fff6af;
+    background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    background-color: #ffec64;
+    border-radius: 6px;
+    border: 1px solid #ffaa22;
+    display: inline-block;
+    cursor: pointer;
+    color: #333333;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffee66;
+  }
+  .btn:hover {
+    background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+    background-color: #ffab23;
+  }
+  .btn:active {
+    position: relative;
+    top: 1px;
+  }
